@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #201d1d;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+  color: white;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif
+}
+/* other pages */
+.text {
+  text-align: center;
+  padding: 1em;
+}
+
+.space {
+ padding-top: 1em;
+}
+
+#button1 {
+  background-color: grey;
+  cursor: pointer;
+  padding: 1em;
+  color: white;
+}
+#button1:hover {
+  background-color: white;
+  color: black;
+}
+.hero           {
+  min-height: 600px;
+  text-align: center;
+  background-image: url("img/sky.jpg");
+  background-size: cover;
+}
+.hero-content {
+  color: #FFF;
+  padding-top: 130px;
+}
+.hero-content h1 {
+  font-size: 100px;
+  margin: 0;
+}
+.hero-content p {
+  font-size: 50px;
+}
+.hero-content a {
+  display: inline-block;
+  color: #FFF;
+  border: 3px solid #FFF;
+  border-radius: 3px;
+  padding: 15px 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 28px;
+  transition: 0.3s ease all;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hero-content a:hover {
+  background-color: grey;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+
+}
+
+.hero-title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
